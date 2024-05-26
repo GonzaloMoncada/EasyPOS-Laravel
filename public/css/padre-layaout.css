@@ -1,0 +1,158 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav {
+    min-height: 100vh;
+    display: flex;
+    flex: 0 0 6.25vw;
+    flex-direction: column;
+    background-color: #0077ac;
+    box-shadow: 1px 0px 1px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+}
+.contenedor {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    background-color: #BBE1FA;
+}
+.div-logo {
+    margin-top: 2vh;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    font-family: arial;
+    font-weight: 400;
+    font-size: 1.5ch;
+    color: #fff;
+}
+
+.div-nav {
+    display: flex;
+    flex-direction: column;
+    flex: 0.7;
+    margin-top: 50%;
+    justify-content: start;
+    gap: 50px;
+    align-items: center;
+}
+
+
+.div-logo img {
+    width: 50%;
+    height: auto;
+}
+
+.div-logo span {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+.div-nav a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: auto;
+}
+
+.div-nav a img {
+    opacity: 0.6;
+    width: 100%;
+}
+
+.div-nav a img:hover {
+    opacity: 1;
+}
+
+a {
+    all: initial;
+    cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+    .scrollbar {
+        height: 90vh;
+        overflow-y: scroll;
+        scrollbar-color: grey transparent;
+        scrollbar-width: thin;
+      }
+    
+    .nav {
+    min-height: 10vh;
+    max-height: 10vh;
+    display: flex;
+    width: 100vw;
+    position: fixed;
+    bottom: 0px;
+    flex: 1 1 1;
+    flex-direction: row;
+    background-color: #0077ac;
+    box-shadow: 1px 0px 1px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+    }
+    .contenedor {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        background-color: #BBE1FA;
+        position: relative;
+    }
+    .div-logo {
+        display: none;
+        margin-top: 0px;
+        flex:0.2;
+        background-color: blue;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: arial;
+        font-weight: 400;
+        font-size: 1.5ch;
+        color: #fff;
+    }
+    
+    .div-nav {
+        display: flex;
+        flex-direction: row;
+        flex: 1;
+        margin-top: 0px;
+        justify-content: space-around;
+        gap: 0px;
+        align-items: center;
+    }
+    .hiddenMobile{
+        display: none;
+        position: absolute; /* o fixed */
+    top: -9999px; /* o cualquier valor para sacarlo fuera de la vista */
+    left: -9999px;
+    }
+    .div-nav a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        height: 60%;
+    }
+    
+    .div-nav a img {
+        opacity: 0.6;
+        height: 100%;
+    }
+    
+    .div-nav a img:hover {
+        opacity: 1;
+    }
+    
+    a {
+        all: initial;
+        cursor: pointer;
+    }
+}

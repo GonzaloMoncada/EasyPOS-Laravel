@@ -1,0 +1,1 @@
+<input required type="number" placeholder="unidades" min="1" onchange="calcularTotal()" id="amount" name="amount" class="block w-full p-2 text-sm text-gray-700 border border-gray-300 rounded bg-gray-200 focus:ring-blue-500 focus:border-blue-500 ">

@@ -1,0 +1,1 @@
+<input type="number" placeholder="precio" onchange="calcularTotal()" required  id="price" name="price" class="block w-full p-2 text-sm text-gray-700 border border-gray-300 rounded bg-gray-200 focus:ring-blue-500 focus:border-blue-500">
