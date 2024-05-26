@@ -11,7 +11,7 @@ npm run dev
 php artisan serve
 ```
   
-## Tecnologias empleadas:
+## Tecnologías empleadas:
  - Laravel con Blade y Jetstream para el login.
  - Flatpickr para los Datepicker.
  - Tailwind CSS para el diseño y estilizado del frontend.
