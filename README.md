@@ -11,16 +11,29 @@ npm run dev
 php artisan serve
 ```
   
-### Tecnologias empleadas:
+## Tecnologias empleadas:
  - Laravel con Blade y Jetstream para el login.
  - Flatpickr para los Datepicker.
  - Tailwind CSS para el diseño y estilizado del frontend.
  - MySQL para el manejo de los datos.
  - DataTables para la visualización de los datos en tablas.
 
-#Screenshots
-[![POS](POS "POS")](https://github.com/GonzaloMoncada/EasyPOS-Laravel/blob/main/screenshots/POS.png "POS")
- [![POS](POS "POS")](https://github.com/GonzaloMoncada/EasyPOS-Laravel/blob/main/screenshots/dataTables.png "POS")
- [![POS](POS "POS")](https://github.com/GonzaloMoncada/EasyPOS-Laravel/blob/main/screenshots/rifa.png "POS")
- [![POS](POS "POS")](https://github.com/GonzaloMoncada/EasyPOS-Laravel/blob/main/screenshots/historial.png "POS")
- [![POS](POS "POS")](https://github.com/GonzaloMoncada/EasyPOS-Laravel/blob/main/screenshots/venta.png "POS")
+## Caracteristicas
+- Autenticación: Los usuarios pueden autenticarse en el sistema para acceder a sus funcionalidades.
+- Control de Stock: Permite gestionar y mantener un registro actualizado del inventario de productos.
+- Gestión de Rifas: Proporciona herramientas para organizar y administrar rifas dentro del sistema.
+- POS (Punto de Venta): Ofrece una interfaz de punto de venta para realizar transacciones de ventas de manera eficiente.
+- Gestión de Productos: Facilita la administración de productos, incluyendo la creación, edición y eliminación de los mismos.
+- Registro de Movimientos: Permite mantener un registro histórico de todas las transacciones de ventas y compras realizadas en el sistema.
+
+## Screenshots
+### POS
+![alt POS](https://github.com/GonzaloMoncada/EasyPOS-Laravel/blob/main/screenshots/POS.png?raw=true "POS")
+### Productos
+ ![alt dataTables](https://github.com/GonzaloMoncada/EasyPOS-Laravel/blob/main/screenshots/dataTables.png?raw=true "POS")
+ ### Rifa
+ ![alt riaf](https://github.com/GonzaloMoncada/EasyPOS-Laravel/blob/main/screenshots/rifa.png?raw=true "POS")
+ ### Carga de stock
+ ![alt venta](https://github.com/GonzaloMoncada/EasyPOS-Laravel/blob/main/screenshots/venta.png?raw=true "POS")
+  ### Historial
+ ![alt historial](https://github.com/GonzaloMoncada/EasyPOS-Laravel/blob/main/screenshots/historial.png?raw=true "POS")
