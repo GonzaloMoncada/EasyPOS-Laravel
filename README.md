@@ -3,7 +3,7 @@
 
 ## Instalación
   Este proyecto requiere la instalación de un motor de base de datos MySQL para gestionar la información. En el archivo .env, se deben completar las credenciales de la base de datos. 
-  Para crear al usuario se debe ir a la ruta `localhost/register` y luego instalar los modulos y dependencias.
+  Para crear al usuario se debe ir a la ruta `localhost/register` y luego instalar los módulos y dependencias.
   ```bash
 composer install
 npm install
